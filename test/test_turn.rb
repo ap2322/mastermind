@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/turn'
+require './lib/sequence'
 require 'pry'
 
 class TurnTest < Minitest::Test
@@ -15,10 +16,6 @@ class TurnTest < Minitest::Test
 
   def test_attributes
     assert_equal "rrrr", @turn.guess
-    assert_instance_of String, @turn.sequence
   end
 
-  def test_correct_guess
-
-  end
 end

@@ -1,0 +1,11 @@
+The game of mastermind starts with the computer creating a randomized sequence of 4 elements: red, green, blue, and yellow. Colors can be repeated in a sequence of 4.
+
+They are abbreviated by their first letter, so a sequence could look like: rggb for "red, green, green, blue".
+
+Your job is to guess the correct sequence of four colors.
+
+A guess might look like: gbby
+
+The game ends when you guess the correct sequence.
+
+You can enter q to quit at anytime.
